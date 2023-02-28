@@ -10,9 +10,9 @@ jobs:
   spellcheck:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.7
     - name: Install codespell
@@ -20,13 +20,13 @@ jobs:
         pip3 install codespell
     - name: Check spelling
       run: |
-        codespell --skip="assets,*.svg,bin" --quiet-level=2  -L "rouge,dropse,namd,hist"
+        codespell --skip="assets,*.svg,bin" --quiet-level=2  -L "rouge,dropse,namd,hist,accessable"
 
   check_lesson_and_build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-ruby@v1
+    - uses: actions/checkout@v3
+    - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '2.7'
     - name: Install basic requirements
