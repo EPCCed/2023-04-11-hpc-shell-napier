@@ -56,18 +56,6 @@ an SSH tool built into it and so one needs to be installed. There are a variety
 of programs that can be used for this; a few common ones we describe here, as
 follows:
 
-#### Git BASH
-
-Git BASH gives you a terminal like interface in Windows. You can use this to
-connect to a remote computer via SSH. It can be downloaded for free from
-[here](https://gitforwindows.org/).
-
-#### Windows Subsystem for Linux
-
-The Windows Subsystem for Linux also allows you to connect to a remote computer
-via SSH. Instructions on installing it can be found
-[here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-
 #### MobaXterm
 
 MobaXterm is a terminal window emulator for Windows and the home edition can be
@@ -92,41 +80,17 @@ Once the MobaXterm window is open you should see a large button in the middle
 of that window with the text "Start Local Terminal". Click this button and you
 will have a terminal window at your disposal.
 
-#### PuTTY
+#### Git BASH
 
-It is strictly speaking not necessary to have a terminal running on your local
-computer in order to access and use a remote system, only a window into the
-remote system once connected. PuTTY is likely It is, strictly speaking, not
-necessary to have a terminal running on your local computer in order to access
-and use a remote system, only a window into the remote system once connected.
-PuTTY is likely the oldest, most well-known, and widely used software solution
-to take this approach.
+Git BASH gives you a terminal like interface in Windows. You can use this to
+connect to a remote computer via SSH. It can be downloaded for free from
+[here](https://gitforwindows.org/).
 
-PuTTY is available for free download from
-[https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). 
-Download the version that is correct for your operating system and install it 
-as you would other software on your Windows system. Once installed it will be 
-available through the start menu or similar.
+#### Windows Subsystem for Linux
 
-Running PuTTY will not initially produce a terminal but instead a window full
-of connection options. Putting the address of the remote system in the "Host
-Name (or IP Address)" box and either pressing enter or clicking the "Open"
-button should begin the connection process.
-
-If this works you will see a terminal window open that prompts you for a
-username through the "login as:" prompt and then for a password. If both of
-these are passed correctly then you will be given access to the system and will
-see a message saying so within the terminal. If you need to escape the
-authentication process you can hold the Control (<kbd>Ctrl</kbd>) key and press
-the <kbd>c</kbd> key to exit and start again.
-
-Note that you may want to paste in your password rather than typing it. Use
-<kbd>Ctrl</kbd> plus a right-click of the mouse to paste content from the
-clipboard to the PuTTY terminal.
-
-For those logging in with PuTTY it would likely be best to cover the terminal
-basics already mentioned above before moving on to navigating the remote
-system.
+The Windows Subsystem for Linux also allows you to connect to a remote computer
+via SSH. Instructions on installing it can be found
+[here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 ## Creating an SSH key
 

@@ -29,16 +29,15 @@ on a server.
 
 Computers with Windows operating systems do not automatically have a Unix Shell
 program installed. In this lesson, we encourage you to use an emulator included
-in Git for Windows, which gives you access to both Bash shell commands and Git.
-If you have attended a Software Carpentry workshop session, it is likely you
-have already received instructions on how to install Git for Windows.
+in MobaXterm for Windows, which gives you access to both Bash shell commands and SSH.
 
-Once installed, you can open a terminal by running the program Git Bash from
+Once installed, you can open a terminal by running the program MobaXterm from
 the Windows start menu.
 
 #### Reference
 
-* [Git for Windows](https://gitforwindows.org/) &mdash; *Recommended*
+* [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) &mdash; *Recommended*
+* [Git for Windows](https://gitforwindows.org/) &mdash; Alternative option used by other Software Carpentries
 * [Windows Subsystem for Linux](
   https://docs.microsoft.com/en-us/windows/wsl/install-win10)
   &mdash; advanced option for Windows 10
@@ -49,8 +48,8 @@ the Windows start menu.
 > now a Bash shell command-line tool available for Windows 10. Additionally,
 > you can run Bash commands on a remote computer or server that already has a
 > Unix Shell, from your Windows machine. This can usually be done through a
-> Secure Shell (SSH) client. One such client available for free for Windows
-> computers is PuTTY. See the reference below for information on installing and
+> Secure Shell (SSH) client. Newer versions of Windows allow you to install OpenSSH
+> as a feature of Windows [see here](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). See the reference below for information on installing and
 > using PuTTY, using the Windows 10 command-line tool, or installing and using
 > a Unix/Linux emulator.
 >
@@ -60,7 +59,8 @@ the Windows start menu.
 >   Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 > * Use the Windows [Powershell](
 https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/ssh-remoting-in-powershell-core?view=powershell-7)
-> * Read up on [Using a Unix/Linux emulator (Cygwin) or Secure Shell (SSH) client
+> * Read up on [Using OpenSSH for Windows](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
+> * Read up on [Using a Unix/Linux emulator (Cygwin) or Secure Shell (SSH) using OpenSSH
 >   (Putty)](http://faculty.smu.edu/reynolds/unixtut/windows.html)
 >
 > > ## Warning
