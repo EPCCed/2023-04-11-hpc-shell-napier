@@ -2,14 +2,14 @@
 layout: lesson
 root: .
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
-venue: Online
+venue: Napier University
 address: 
 country: "UK"
 language: "English"
-latlng: 
-humandate: 26 July 2022
+latlng: 55.933146155905135, -3.2141915998127155
+humandate: 11 April 2023
 humantime: 09:30-16:00 BST
-startdate: 2022-07-26
+startdate: 2023-04-11
 instructor: Tony Hallam
 helper: 
 email: ["support@archer2.ac.uk"]
@@ -28,7 +28,7 @@ By the end of this workshop, students will know how to:
   computer, connect to a remote HPC system, and write simple shell scripts.
 
 This lesson is part of a 2-day ARCHER2 course, you can find the material 
-for day 2 at [Introduction to High Performance Computing](https://epcced.github.io/2022-07-27-hpc-intro-online/).
+for day 2 at [Introduction to High Performance Computing](https://epcced.github.io/2023-04-12-hpc-intro-napier/).
 
 <h2 id="general">General Information</h2>
 
@@ -42,9 +42,10 @@ for day 2 at [Introduction to High Performance Computing](https://epcced.github.
 {% endcomment %}
 <p id="where">
   <strong>Where:</strong>
-  This course will be taught online via Blackboard Collaborate. All attendees will
-  be sent the joining link prior to the event.
+  This course will be taught in person at <a href="https://www.accessable.co.uk/edinburgh-napier-university/access-guides/the-glassroom">The Glassroom</a>, Napier University, Edinburgh. All attendees will
+  be sent the joining instructions prior to the event.
 </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d693.8732532289232!2d-3.2135287413311633!3d55.932869077044316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c7094d1a3ff9%3A0x63b967e8d1488094!2sEdinburgh%20Napier%20University%20Merchiston%20Campus!5e0!3m2!1sen!2suk!4v1677580319047!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 {% comment %}
   DATE
@@ -66,8 +67,8 @@ for day 2 at [Introduction to High Performance Computing](https://epcced.github.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they are able to download and run software on. Specifically they should be able to run the portable version of <a href="https://mobaxterm.mobatek.net/download-home-edition.html">MobaXterm</a>.
+  Alternatively, they should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by the <a href="https://www.archer2.ac.uk/training/code-of-conduct/">ARCHER2 Training Code of Conduct</a>.
 </p>
 
@@ -79,7 +80,7 @@ for day 2 at [Introduction to High Performance Computing](https://epcced.github.
 {% endcomment %}
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
+  accessible to everybody. Accessibility details of the venue are outlined <a href="https://www.accessable.co.uk/edinburgh-napier-university/access-guides/the-glassroom">here</a>.
 </p>
 <p>
   Materials will be provided in advance of the workshop. If we can help making learning easier for
@@ -119,7 +120,7 @@ for day 2 at [Introduction to High Performance Computing](https://epcced.github.
 
 > ## Requirements
 > Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet,
-> Chromebook, etc.) that they have administrative privileges on. They should have a few specific software
+> Chromebook, etc.) that they can download and run MobaXterm on. Alternatively, they should have a few specific software
 > packages installed (listed in the Setup section below). They are also required to abide by the
 > [ARCHER2 Training Code of Conduct](https://www.archer2.ac.uk/training/code-of-conduct/).
 {: .prereq}
